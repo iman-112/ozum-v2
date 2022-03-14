@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: rgb(232, 245, 250);
+    width: 100%;
+
+}
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(155, 183, 194);
+}
+.head-container .logo{
+  display: flex;
+}
+.head-container .logo img{
+ width: 4.5rem;
+ border-radius: 2rem;
+}
+.head-container .logo h5{
+    font-size: 1.5rem;
+    padding: 8px;
+    color: rgb(251, 253, 255);
+}
