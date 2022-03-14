@@ -29,3 +29,52 @@ html{
     padding: 8px;
     color: rgb(251, 253, 255);
 }
+.links{
+    text-align: center;
+    padding-top: 0.5rem;
+    justify-content: center;
+}
+.links a{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+
+    color:rgb(251, 253, 255) ;
+}
+.links a:hover{
+    color: rgb(98, 98, 146);
+}
+
+@media  screen and (max-width:650px) {
+
+    .head-container .logo{
+      display: flex;
+    }
+    .head-container .logo img{
+     width: 5rem;
+     
+     border-radius: 6rem;
+    }
+    .head-container .logo h5{
+        font-size: 1.3rem;
+        padding: 12px;
+        font-weight: 699;
+        color: rgb(251, 253, 255);
+    }
+    .links{
+        text-align: center;
+        padding-top: 0.9rem;
+       
+    }
+    .links a{
+        text-decoration: none;
+        padding: .2rem;
+        font-size: 1rem;
+        font-weight: 600;
+    
+        color:rgb(251, 253, 255) ;
+    }
+    .links a:hover{
+        color: rgb(98, 98, 146);
+    }
+}
