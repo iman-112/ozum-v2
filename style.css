@@ -16,6 +16,7 @@ html,body{
 }
 
 .navbar{
+    box-shadow: 0px 10px 50px 0px rgb(80, 100, 100);
     border-radius: 2rem;
    background-color: rgb(64, 107, 107);
     display: flex;
@@ -38,6 +39,7 @@ html,body{
     font-size: 2rem;
     
 }
+
 .links{
     display: flex;
 }
@@ -71,7 +73,7 @@ html,body{
 
 @media screen and (max-width:1000px){
     .logo h5{
-        margin-left: 1rem;
+        margin-left: 1rem;  
         color: white;
         margin-top: 1rem;
         font-size: 1.2rem;
@@ -110,4 +112,302 @@ html,body{
         color: white;
     }
 }
-/*
+@media screen and (max-width:400px){
+    .logo h5{
+        margin-left: .7rem;
+        color: white;
+        margin-top: .4rem;
+        font-size: .9rem;
+        }
+        .logo img{
+            width: 3rem;
+        }
+        .links a{
+            text-decoration: none;
+            color: white;
+            font-weight:600;
+            font-size: .8rem;
+        }
+        .hamburger div{
+            width: 1.8rem;
+            height: .2;
+        }
+}
+/* naviqasiya paneli son*/
+
+.container-menu{
+    
+    width: 90%;
+    height: 100vh;
+    margin:  0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.content{
+    margin-left: 2rem;
+    text-align: center;
+    justify-content: center;
+    width: 45%;
+    margin-top: 5rem;
+   
+}
+.content h2{
+width: 100%;
+font-size: 2.5rem;
+color: rgb(64, 107, 107);
+font-weight: 800;
+}
+.foto{
+    width: 45%;
+    margin:0 auto;
+}
+.foto img{
+    box-shadow:10px 5px 15px 12px rgb(64, 107, 107);
+    margin-top: 10rem;
+    width: 60%;
+    border-radius: 2rem;
+}
+.content p{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    width: 100%;
+  
+}
+@media screen and (max-width:1000px) {
+    .container-menu{
+        height: 100vh;
+        width: 90%;
+        margin:  0 auto;
+        display: flex;
+       
+    }
+    .content{
+        margin-left: 1rem;
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+        margin-top: 5rem;
+       
+    }
+    .content h2{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .foto{
+        width: 50%;
+        margin:0 auto;
+    }
+    .foto img{
+        margin-top: 3rem;
+        width: 80%;
+        border-radius: 2rem;
+    }
+    .content p{
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px) {
+    .container-menu{
+        height: 100vh;
+        width: 90%;
+        margin:  0 auto;
+        display: flex;
+       
+    }
+    .content{
+        margin-left: 0rem;
+        text-align: center;
+        justify-content: center;
+        width: 70%;
+        margin-top: 3rem;
+       
+    }
+    .content h2{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .foto{
+        width: 30%;
+        margin:0 auto;
+    }
+    .foto img{
+        margin-top: 5rem;
+        width: 70%;
+        border-radius: 2rem;
+    }
+    .content p{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .container-menu{
+        height: 100%;
+        width: 90%;
+        flex-direction: column;
+        margin:  0 auto;
+        display: flex;
+       
+    }
+    .content{
+        text-align: center;
+        justify-content: center;
+        width:100%;
+        margin-top:2rem;
+       
+    }
+    .content h2{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        width: 100%;
+     
+    }
+    .foto{
+        width: 80%;
+        margin:0 auto;
+    }
+    .foto img{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        width: 50%;
+        border-radius: 2rem;
+    }
+    .content p{
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+
+}
+/*hero menyu son */
+
+
+/*Bilikler baslangic */
+.bilikler{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+.bilikler .menu-head{
+    width: 80%;
+    border-radius: 3rem;
+    box-shadow:  1px 6px 34px 3px rgb(64, 107, 107);
+
+    text-align: center;
+    margin: auto;
+   
+    padding: 0  0 5rem 0 ;
+}
+.bilikler .menu-head img{
+    width: 180px;
+    border-radius: 2rem;
+}
+
+.menu-head p{
+    font-size: 1.5rem;
+}
+.bilikler .css-head{
+    margin-top: 5rem;
+}
+.bilikler .js-head{
+    margin-top: 5rem;
+}
+.menu-head span{
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media  screen and (max-width:800px) {
+    .bilikler{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .bilikler .menu-head{
+        width: 90%;
+        border-radius: 3rem;
+        box-shadow:  1px 6px 34px 3px rgb(64, 107, 107);
+    
+        text-align: center;
+        margin: auto;
+       
+        padding: 0  0 2rem 0 ;
+    }
+    .bilikler .menu-head img{
+        width: 100px;
+        border-radius: 2rem;
+    }
+    
+    .menu-head p{
+        font-size: 1rem;
+        
+    }
+    .bilikler .css-head{
+        margin-top: 3rem;
+    }
+    .bilikler .js-head{
+        margin-top: 3rem;
+    }
+    .menu-head span{
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+    @media  screen and (max-width:400px) {
+        .bilikler{
+            display: flex;
+            width: 90%;
+            margin: auto;
+            flex-direction: column;
+        }
+        .bilikler .menu-head{
+            width: 90%;
+            border-radius: 3rem;
+            box-shadow:  1px 6px 34px 3px rgb(64, 107, 107);
+        
+            text-align: center;
+            margin: auto;
+           
+            padding: 0  0 1rem 0 ;
+        }
+        .bilikler .menu-head img{
+            width: 30px;
+            border-radius: .5rem;
+        }
+        
+        .menu-head p{
+            font-size: .9rem;
+            
+        }
+        .bilikler .css-head{
+            margin-top: .7rem;
+        }
+        .bilikler .js-head{
+            margin-top: 1rem;
+        }
+        .menu-head span{
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+        }
+}
+
+.back-home a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 5rem;
+}
+.back-home a:hover{
+    color: red;
+    transition: .3s ease;
+}
+/* Bilikler son /*
+/* CV */
