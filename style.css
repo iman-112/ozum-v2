@@ -13,6 +13,9 @@ html,body{
 .container{
    width: 90%;
    margin: 0 auto;
+   top: 0;
+   left: 0%;
+   position: sticky;
 }
 
 .navbar{
@@ -23,6 +26,7 @@ html,body{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+   
 }
 .logo{
     
@@ -68,7 +72,8 @@ html,body{
     font-size: 1.2rem;
 }
 .links a:hover{
-    color: rgb(98, 98, 146);
+    color: rgb(224, 181, 60);
+    transition: .4s ease;
 }
 
 @media screen and (max-width:1000px){
@@ -97,7 +102,7 @@ html,body{
         height: 100vh;
         top: 0;
         right: 0;
-        padding-top: 4rem;
+        padding-top: 6rem;
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
@@ -108,8 +113,14 @@ html,body{
         transform: translateX(0);
     }
     .link{
-        margin: 1rem 0;
+        margin: 1.3rem 0;
         color: white;
+    }
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-weight:600;
+        font-size: 1.7rem;
     }
 }
 @media screen and (max-width:400px){
@@ -122,11 +133,12 @@ html,body{
         .logo img{
             width: 3rem;
         }
+
         .links a{
             text-decoration: none;
             color: white;
             font-weight:600;
-            font-size: .8rem;
+            font-size:1.7rem;
         }
         .hamburger div{
             width: 1.8rem;
@@ -399,7 +411,7 @@ font-weight: 800;
             font-family: 'Times New Roman', Times, serif;
         }
 }
-
+/* CV */
 .back-home a{
     text-decoration: none;
     font-size: 2rem;
@@ -409,5 +421,97 @@ font-weight: 800;
     color: red;
     transition: .3s ease;
 }
-/* Bilikler son /*
-/* CV */
+/* Bilikler son */
+.about-container{
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.about-content{
+    margin: auto;
+    width: 80%;
+    margin: auto;
+}
+.about-head{
+    margin-bottom: 1rem;
+    color: rgb(46, 24, 16);
+    text-align: center;
+    font-size: 3rem;
+}
+.p-content{
+    box-shadow:  1px 6px 34px 3px rgb(64, 107, 107);
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    word-spacing: .2rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    padding:1.5rem;
+
+}
+@media  screen and (max-width:400px){
+    .about-container{
+        width: 90%;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid gray;
+    }
+    .about-content{
+        margin: auto;
+        width: 90%;
+        margin: auto;
+    }
+    .about-head{
+        margin-bottom: 1rem;
+        color: rgb(46, 24, 16);
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    .p-content{
+        box-shadow:  1px 6px 34px 3px rgb(64, 107, 107);
+        font-size:.9rem;
+        padding: .5rem;
+        text-align:initial;
+        word-spacing: .1rem;
+        font-weight: 100;
+        border-radius: 3rem;
+        padding:1.5rem;
+    
+    }
+}
+
+.elaqe{
+    box-shadow: 0px 0px 46px 12px rgb(64, 107, 107) ;
+    width: 40%;
+    margin: auto;
+    border-radius: 2rem;
+  
+}
+
+#contact h1{
+text-align: center;
+color: rgb(46, 24, 16);
+font-size: 2.5rem;
+padding: 1rem;
+}
+#contact ul li a{
+    text-decoration: none;
+    color: rgb(68, 88, 88);
+}
+#contact ul li a:hover{
+    color: darkgreen;
+    transition: .3s ease-in-out;
+}
+#contact{
+    text-align: center;
+    border-radius: 3rem;
+}
+#contact ul li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    list-style-type:  none;;
+    padding: .8rem;
+    color: rgb(68, 88, 88);
+}
